@@ -1,8 +1,11 @@
 
 public class Storehouse
 {
+
 	private int numSeeds;
-	private Pit pit;
+
+
+
 
 	
 	public void addCapturedSeeds(int n){

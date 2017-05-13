@@ -18,12 +18,7 @@ public class Board
 	public Pit getPit(int pitnum)
 	{
 		return allPits[pitnum];
-	}
-	
-	public void setPit(int pitNumber, Pit p){
-		allPits[pitNumber]=p;
-	}
-	
+	}	
 	
 	private void createPits(){
 		for(int i =0; i<12; i++){
@@ -103,11 +98,6 @@ public class Board
 		System.out.println(rowLine);
 		System.out.println(rowNumberOfSeeds);
 		
-	}
-	
-	public static void main(String[] args){
-		Board b= new Board();
-		b.showBoard();
 	}
 	
 	public boolean isPlayerAbleToMakeMove(int playerId){
