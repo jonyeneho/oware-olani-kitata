@@ -9,6 +9,7 @@ public class TestStorehouseJide {
 		Storehouse s = new Storehouse();
 		
 		assertEquals(0, s.getNumSeeds());
+		
 	}
 
 }
